@@ -1,10 +1,27 @@
 # theme: jekyll-theme-cayman
 remote_theme: just-the-docs/just-the-docs
 
+
+title: Design Methods
+
 #aux link upper right
 aux_links:
-  "Just the Docs on GitHub":
-    - "//github.com/just-the-docs/just-the-docs"
+  "@sylvesterlau":
+    - "https://sylvesterlau.com/"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
+
+#footer
+footer_content: "Made by <a href="https://sylvesterlau.com">sylvester lau.</a>."
+
+#Search
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 2
+  preview_words_before: 3
+  preview_words_after: 3
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
